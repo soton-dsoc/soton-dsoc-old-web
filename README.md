@@ -1,4 +1,4 @@
-# sds-web
+# dsoc-web
 
 Homepage for ______(url)
 
