@@ -1,10 +1,11 @@
 import styled from "styled-components"; 
 import { Link } from "react-scroll";
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled.a`
     background-color: white;
     color: #000000;
-    padding: 0.5rem 10rem;
+    margin: 0.5rem 3rem;
+    padding: 0.5rem 0rem;
     border-color: #000000;
     border-style: solid;
     border-width: 2px;
