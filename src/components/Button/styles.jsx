@@ -1,11 +1,10 @@
-import styled from "styled-components"; 
+import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const StyledLink = styled.a`
     background-color: white;
     color: #000000;
-    margin: 0.5rem 3rem;
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 7rem;
     border-color: #000000;
     border-style: solid;
     border-width: 2px;
@@ -17,5 +16,9 @@ export const StyledLink = styled.a`
         background-color: #C4C4C4;
         color: #000000;
         cursor: pointer;
+    }
+
+       @media screen and (max-width: 430px) {
+           padding: 0.5rem 1rem;
     }
 `

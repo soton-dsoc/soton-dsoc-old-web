@@ -15,4 +15,18 @@ export const BigText = styled.h1`
     }};
     font-family: "Roboto Mono";
     font-weight: bold;
+
+    @media screen and (max-width: 430px) {
+            font-size: ${props => {
+        if (props.large) {
+            return "4rem";
+        }
+        if (props.medium) {
+            return "3rem";
+        }
+        if (props.small) {
+            return "1rem";
+        }
+    }};
+    }
 `
