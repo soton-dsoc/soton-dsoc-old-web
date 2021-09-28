@@ -15,6 +15,7 @@ export const DiscordButton = styled.a`
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    padding: 0.5rem;
     margin: auto;
     text-decoration: none;
 
