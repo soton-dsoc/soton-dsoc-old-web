@@ -50,6 +50,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/SkymanOne"><img src="https://avatars.githubusercontent.com/u/17993104?v=4?s=100" width="100px;" alt=""/><br /><sub><b>German</b></sub></a><br /><a href="https://github.com/soton-dsoc/soton-dsoc.github.io/commits?author=SkymanOne" title="Code">💻</a></td>
+    <td align="center"><a href="https://zayn.world"><img src="https://avatars.githubusercontent.com/u/27734099?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zayn Shafiuddin</b></sub></a><br /><a href="#design-Cwayon" title="Design">🎨</a></td>
   </tr>
 </table>
 
