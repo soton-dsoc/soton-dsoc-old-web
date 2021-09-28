@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Cwayon",
+      "name": "Zayn Shafiuddin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27734099?v=4",
+      "profile": "https://zayn.world",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "soton-dsoc.github.io",
+  "projectOwner": "soton-dsoc",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
