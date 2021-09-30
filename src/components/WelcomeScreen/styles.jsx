@@ -1,14 +1,5 @@
 import styled from "styled-components"
 
-
-export const VerticalStack = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: inherit;
-
-`
-
 export const DiscordButton = styled.a`
     display: flex;
     flex-direction: row;

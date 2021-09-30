@@ -4,8 +4,9 @@ import { CustomButton } from "../Button";
 import { Paragraph } from "../Paragraph/styles";
 import { BigText } from "../Title/styles";
 import { ReactComponent as Logo } from "../../img/logo.svg";
-import { DiscordButton, ImageResizing, VerticalStack } from "./styles"
+import { DiscordButton, ImageResizing } from "./styles"
 import { CoreContainer } from "../../globalStyles";
+import { VerticalStack } from "../../globalStyles";
 import discord from "../../img/discord.png"
 
 class WelcomeScreenComponent extends React.Component {
@@ -27,7 +28,7 @@ class WelcomeScreenComponent extends React.Component {
                         </DiscordButton>
                     </div>
                     <div className="pt-4">
-                        <CustomButton text="Take me further" to="https://discord.gg/eJ2cGWR3" />
+                        <CustomButton to="second" text="Take me further" />
                     </div>
                 </VerticalStack>
             </CoreContainer>
