@@ -16,7 +16,7 @@ class WelcomeScreenComponent extends React.Component {
                 <VerticalStack className="text-center mx-auto">
                     <div>
                         <BigText large className="pb-2">We Are dSoc..</BigText>
-                        <Paragraph grey bold>Southampton University Decentralized Society</Paragraph>
+                        <Paragraph grey bold>Southampton University Decentralised Society</Paragraph>
                     </div>
                     <div>
                         <Logo className="mx-auto d-block" />

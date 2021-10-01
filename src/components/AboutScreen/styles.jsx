@@ -4,7 +4,6 @@ export const GreyBackground = styled.div`
     width: 100%;
     height: 100%;
     background-color: #FAFAFA;
-
     @media screen and (max-width: 430px) {
         height: max-content;
         background-color: #FAFAFA;

@@ -15,6 +15,7 @@ export const BigText = styled.h1`
     }};
     font-family: "Roboto Mono";
     font-weight: bold;
+    margin: inherit;
 
     @media screen and (max-width: 430px) {
             font-size: ${props => {

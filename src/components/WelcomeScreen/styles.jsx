@@ -21,9 +21,10 @@ export const DiscordButton = styled.a`
 `
 
 export const ImageResizing = styled.img`
-    width: 10rem;
+    width: 5rem;
+    margin: auto;
 
         @media screen and (max-width: 430px) {
-            width: 5rem;
+            width: 2rem;
     }
 `
