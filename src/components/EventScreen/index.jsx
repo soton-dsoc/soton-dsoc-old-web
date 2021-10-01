@@ -2,16 +2,15 @@ import React from "react";
 import { CoreContainer, VerticalStack } from "../../globalStyles";
 import { Paragraph } from "../Paragraph/styles";
 import { BigText } from "../Title/styles";
-import { Centered, IconRow } from "./styles";
+import { Centered, IconRow, StrictContainer, IconResizing } from "./styles";
 import discord from "../../img/discord.png"
 import twitter from "../../img/twitter.png"
 import github from "../../img/github.png"
-import { IconResizing } from "./styles";
 
 class EventsScreenComponent extends React.Component {
     render() {
         return (
-            <CoreContainer>
+            <StrictContainer>
                 <Centered js="space-around">
                     <span id="third" />
                     <BigText medium>Regular meetings</BigText>
@@ -35,7 +34,7 @@ class EventsScreenComponent extends React.Component {
                         <Paragraph className="text-center" grey bold> All right reserved. @2021</Paragraph>
                     </div>
                 </Centered>
-            </CoreContainer>
+            </StrictContainer>
         )
     }
 }

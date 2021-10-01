@@ -23,7 +23,7 @@ export const BigText = styled.h1`
             return "4rem";
         }
         if (props.medium) {
-            return "2rem";
+            return "1.8rem";
         }
         if (props.small) {
             return "1rem";

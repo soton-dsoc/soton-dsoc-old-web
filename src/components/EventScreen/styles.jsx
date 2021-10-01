@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { CoreContainer } from "../../globalStyles";
 
 export const DividedBackground = styled.div`
 
@@ -17,8 +18,12 @@ export const Centered = styled.div`
     @media screen and (max-width: 430px) {
         width: 100%;
         gap: 1rem;
-        padding: 1rem;
     }
+`
+
+export const StrictContainer = styled(CoreContainer)`
+    height: 100%;
+    
 `
 
 export const IconRow = styled.a`
