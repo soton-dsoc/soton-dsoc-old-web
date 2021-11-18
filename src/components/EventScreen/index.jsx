@@ -31,7 +31,7 @@ class EventsScreenComponent extends React.Component {
                             </a>
                         </IconRow>
                         <Paragraph className="text-center" grey bold>Southampton University Decentralisation Society</Paragraph>
-                        <Paragraph className="text-center" grey bold> All right reserved. @2021</Paragraph>
+                        <Paragraph className="text-center" grey bold>All right reserved. ©{new Date().getFullYear()}</Paragraph>
                     </div>
                 </Centered>
             </StrictContainer>
