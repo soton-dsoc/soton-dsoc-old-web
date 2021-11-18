@@ -13,7 +13,11 @@ class EventsScreenComponent extends React.Component {
             <StrictContainer>
                 <Centered js="space-around">
                     <span id="third" />
-                    <BigText medium>Regular meetings</BigText>
+                    <BigText medium>Upcoming events and meetings</BigText>
+                    <Centered className="text-center" js="center">
+                        <Paragraph unix-ms='1637776800'>UPCOMING EVENT: SUCSS Talk 24th November 2021 1800 - 2000 GMT</Paragraph>
+                        <Paragraph>More detail to follow soon!</Paragraph>
+                    </Centered>
                     <Centered className="text-center" js="center">
                         <Paragraph>Our regular meetings usually take place every Wednesday at 4pm. Follow our twitter and discord for more updates</Paragraph>
                         <Paragraph>We also host online meetings on the discord every Sunday at 1pm</Paragraph>
